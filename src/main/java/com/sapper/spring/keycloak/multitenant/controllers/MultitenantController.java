@@ -19,11 +19,15 @@ public class MultitenantController {
     }
  //user api
 
-
-
+    /*
+        ******
+        *
     /*
      ******
-     */
+     *
+       /*
+        ******
+        */
     @RequestMapping("/user")
     public String userSecuredEndpoint()
     {
