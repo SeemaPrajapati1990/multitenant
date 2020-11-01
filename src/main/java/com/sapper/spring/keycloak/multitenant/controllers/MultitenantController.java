@@ -18,6 +18,12 @@ public class MultitenantController {
         return "Documents admin";
     }
  //user api
+
+
+
+    /*
+     ******
+     */
     @RequestMapping("/user")
     public String userSecuredEndpoint()
     {
