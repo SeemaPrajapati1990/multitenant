@@ -8,12 +8,16 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MultitenantController {
 //creating rest api-------------
+
+    /*
+    ******
+     */
     @RequestMapping(name = "/admin",method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     public String adminSecuredEndpoint()
     {
         return "Documents admin";
     }
- 
+ //user api
     @RequestMapping("/user")
     public String userSecuredEndpoint()
     {
